@@ -13,19 +13,30 @@ declare (strict_types=1);
 
 namespace Tardigrades\Bundle\SexyFieldBundle\DependencyInjection;
 
+use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
+use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Tardigrades\DependencyInjection\SectionFieldApiExtension;
 use Tardigrades\DependencyInjection\SectionFieldDoctrineExtension;
 use Tardigrades\DependencyInjection\SectionFieldEntityExtension;
-use Tardigrades\DependencyInjection\SectionFieldExtension;
+use Tardigrades\DependencyInjection\SexyFieldExtension;
 use Tardigrades\DependencyInjection\SexyFieldFormExtension;
 
-class SexyFieldExtension extends Extension
+class SexyFieldBundleExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
-        (new SectionFieldExtension())->load($configs, $container);
+        $loader = new YamlFileLoader(
+            $container,
+            new FileLocator([
+                __DIR__.'/../Resources/config'
+            ])
+        );
+
+        $loader->load('services.yml');
+
+        (new SexyFieldExtension())->load($configs, $container);
         (new SectionFieldEntityExtension())->load($configs, $container);
         (new SectionFieldDoctrineExtension())->load($configs, $container);
         (new SexyFieldFormExtension())->load($configs, $container);
