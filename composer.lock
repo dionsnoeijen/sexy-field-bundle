@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c956f34f872001d2f9441f07ce2f01a9",
+    "content-hash": "63f416ea04352b25f1aff8e6afac8e17",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -2750,27 +2750,30 @@
             "time": "2017-09-30 10:26:19"
         },
         {
-            "name": "tardigrades/sexy-field-twig",
+            "name": "tardigrades/sexy-field-form",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dionsnoeijen/sexy-field-twig.git",
-                "reference": "663878d04bf0047517118208f831bd244446bd98"
+                "url": "https://github.com/dionsnoeijen/sexy-field-form.git",
+                "reference": "73ba55910b8040405dc8d9ab9ede91baef612b1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-twig/zipball/663878d04bf0047517118208f831bd244446bd98",
-                "reference": "663878d04bf0047517118208f831bd244446bd98",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/73ba55910b8040405dc8d9ab9ede91baef612b1b",
+                "reference": "73ba55910b8040405dc8d9ab9ede91baef612b1b",
                 "shasum": ""
             },
             "require": {
+                "doctrine/orm": "^2.5.6",
                 "symfony/config": "^3.3.2",
                 "symfony/dependency-injection": "^3.3.2",
                 "symfony/form": "^3.3.2",
-                "symfony/http-foundation": "^3.3.2",
+                "symfony/security": "^3.3.2",
+                "symfony/validator": "^3.3.2",
+                "symfony/yaml": "^3.3.2",
                 "tardigrades/sexy-field": "dev-master",
                 "twig/extensions": "^1.5.1",
-                "twig/twig": "~2.0"
+                "twig/twig": "^2.0"
             },
             "require-dev": {
                 "mikey179/vfsstream": "^1.6",
@@ -2794,8 +2797,8 @@
                     "email": "hallo@dionsnoeijen.nl"
                 }
             ],
-            "description": "Section field magic",
-            "time": "2017-09-30 10:10:46"
+            "description": "SexyField forms",
+            "time": "2017-10-02 10:06:01"
         },
         {
             "name": "twig/extensions",
@@ -4517,8 +4520,8 @@
         "tardigrades/sexy-field": 20,
         "tardigrades/sexy-field-api": 20,
         "tardigrades/sexy-field-doctrine": 20,
-        "tardigrades/sexy-field-field-types-base": 20,
-        "tardigrades/sexy-field-twig": 20
+        "tardigrades/sexy-field-form": 20,
+        "tardigrades/sexy-field-field-types-base": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
