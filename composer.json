@@ -1,0 +1,31 @@
+{
+  "name": "tardigrades/sexy-field-bundle",
+  "description": "Symfony SexyFieldBundle",
+  "keywords": ["Form", "Generator", "Database", "Persistence"],
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "Dion Snoeijen",
+      "email": "hallo@dionsnoeijen.nl"
+    }
+  ],
+  "require": {
+    "symfony/dependency-injection": "^3.3.2",
+    "tardigrades/sexy-field": "dev-master",
+    "tardigrades/sexy-field-api": "dev-master",
+    "tardigrades/sexy-field-doctrine": "dev-master",
+    "tardigrades/sexy-field-field-types-base": "dev-master",
+    "tardigrades/sexy-field-twig": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tardigrades\\SexyFieldBundle\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1",
+    "squizlabs/PHP_CodeSniffer": "^2.8",
+    "mockery/mockery": "^0.9.9"
+  }
+}
