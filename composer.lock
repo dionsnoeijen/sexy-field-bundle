@@ -2513,12 +2513,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field.git",
-                "reference": "a5514910a680b03d88f3477654328b66ca2e8a56"
+                "reference": "9db5e6d901f748ade92faffbb5e7aeddbf994134"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/a5514910a680b03d88f3477654328b66ca2e8a56",
-                "reference": "a5514910a680b03d88f3477654328b66ca2e8a56",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/9db5e6d901f748ade92faffbb5e7aeddbf994134",
+                "reference": "9db5e6d901f748ade92faffbb5e7aeddbf994134",
                 "shasum": ""
             },
             "require": {
@@ -2531,7 +2531,10 @@
                 "symfony/inflector": "^3.3.2",
                 "symfony/security": "^3.3.2",
                 "symfony/validator": "^3.3.2",
-                "symfony/yaml": "^3.3.2"
+                "symfony/yaml": "^3.3.2",
+                "tardigrades/sexy-field-entity": "dev-master",
+                "twig/extensions": "^1.5.1",
+                "twig/twig": "^2.0"
             },
             "require-dev": {
                 "mikey179/vfsstream": "^1.6",
@@ -2556,7 +2559,7 @@
                 }
             ],
             "description": "SexyField helps you build application structure and accompanying forms.",
-            "time": "2017-09-30 10:03:46"
+            "time": "2017-10-02 10:57:00"
         },
         {
             "name": "tardigrades/sexy-field-api",
