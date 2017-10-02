@@ -1,5 +1,13 @@
-# This is the configuration that assumes you use the sexy-field-doctrine package
+# Doctrine mapping, entity configuration xml Driver
 services:
+  sexy_field.xml_driver:
+    class: Doctrine\ORM\Mapping\Driver\XmlDriver
+    arguments:
+      -
+        - "%kernel.root_dir%/../vendor/tardigrades/sexy-field/src/config/xml"
+      - ".dcm.xml"
+
+# This is the configuration that assumes you use the sexy-field-doctrine package
   section_field.generator:
     class: Tardigrades\SectionField\Generator\Generators
     arguments:

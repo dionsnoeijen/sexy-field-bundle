@@ -16,6 +16,7 @@ namespace Tardigrades\Bundle\SexyFieldBundle;
 use Symfony\Component\Console\Application;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
+use Tardigrades\Bundle\SexyFieldBundle\DependencyInjection\Compiler\XmlDriverCompilerPass;
 
 class SexyFieldBundle extends Bundle
 {
@@ -25,6 +26,8 @@ class SexyFieldBundle extends Bundle
     public function build(ContainerBuilder $container)
     {
         parent::build($container);
+
+        $container->addCompilerPass(new XmlDriverCompilerPass());
     }
 
     public function registerCommands(Application $application)
