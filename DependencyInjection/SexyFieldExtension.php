@@ -11,10 +11,15 @@
 
 declare (strict_types=1);
 
-namespace Tardigrades\DependencyInjection;
+namespace Tardigrades\Bundle\SexyFieldBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
+use Tardigrades\DependencyInjection\SectionFieldApiExtension;
+use Tardigrades\DependencyInjection\SectionFieldDoctrineExtension;
+use Tardigrades\DependencyInjection\SectionFieldEntityExtension;
+use Tardigrades\DependencyInjection\SectionFieldExtension;
+use Tardigrades\DependencyInjection\SexyFieldFormExtension;
 
 class SexyFieldExtension extends Extension
 {
