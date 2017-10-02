@@ -2755,12 +2755,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-form.git",
-                "reference": "73ba55910b8040405dc8d9ab9ede91baef612b1b"
+                "reference": "09b28a487bff7171a102822dfa71c9ce7d85571e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/73ba55910b8040405dc8d9ab9ede91baef612b1b",
-                "reference": "73ba55910b8040405dc8d9ab9ede91baef612b1b",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/09b28a487bff7171a102822dfa71c9ce7d85571e",
+                "reference": "09b28a487bff7171a102822dfa71c9ce7d85571e",
                 "shasum": ""
             },
             "require": {
@@ -2798,7 +2798,7 @@
                 }
             ],
             "description": "SexyField forms",
-            "time": "2017-10-02 10:06:01"
+            "time": "2017-10-02 10:22:20"
         },
         {
             "name": "twig/extensions",

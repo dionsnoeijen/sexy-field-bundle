@@ -23,7 +23,7 @@ class SexyFieldExtension extends Extension
         (new SectionFieldExtension())->load($configs, $container);
         (new SectionFieldEntityExtension())->load($configs, $container);
         (new SectionFieldDoctrineExtension())->load($configs, $container);
-        (new SectionFieldTwigExtension())->load($configs, $container);
+        (new SexyFieldFormExtension())->load($configs, $container);
         (new SectionFieldApiExtension())->load($configs, $container);
     }
 }
