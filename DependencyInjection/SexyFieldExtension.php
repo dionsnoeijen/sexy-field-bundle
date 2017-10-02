@@ -20,10 +20,10 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Tardigrades\DependencyInjection\SectionFieldApiExtension;
 use Tardigrades\DependencyInjection\SectionFieldDoctrineExtension;
 use Tardigrades\DependencyInjection\SectionFieldEntityExtension;
-use Tardigrades\DependencyInjection\SexyFieldExtension;
+use Tardigrades\DependencyInjection\SexyFieldExtension as BasePackage;
 use Tardigrades\DependencyInjection\SexyFieldFormExtension;
 
-class SexyFieldBundleExtension extends Extension
+class SexyFieldExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
@@ -36,7 +36,7 @@ class SexyFieldBundleExtension extends Extension
 
         $loader->load('services.yml');
 
-        (new SexyFieldExtension())->load($configs, $container);
+        (new BasePackage())->load($configs, $container);
         (new SectionFieldEntityExtension())->load($configs, $container);
         (new SectionFieldDoctrineExtension())->load($configs, $container);
         (new SexyFieldFormExtension())->load($configs, $container);
