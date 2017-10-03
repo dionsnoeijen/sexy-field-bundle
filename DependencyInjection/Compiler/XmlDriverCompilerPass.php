@@ -17,8 +17,8 @@ use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;
 
-class XmlDriverCompilerPass implements CompilerPassInterface{
-
+class XmlDriverCompilerPass implements CompilerPassInterface
+{
     public function process(ContainerBuilder $container)
     {
         $driverChainDef = $container->findDefinition('doctrine.orm.default_metadata_driver');
@@ -28,5 +28,4 @@ class XmlDriverCompilerPass implements CompilerPassInterface{
             ]
         );
     }
-
 }
