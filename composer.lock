@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "63f416ea04352b25f1aff8e6afac8e17",
+    "content-hash": "cad127c38d38f04c9622f40e9c42cbec",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -1282,12 +1282,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "83cccc61b0b0ee2aa308ae3520bef04b8053cc0e"
+                "reference": "79208baf6d8b98c550b531f3ddfd0ad32b23e499"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/83cccc61b0b0ee2aa308ae3520bef04b8053cc0e",
-                "reference": "83cccc61b0b0ee2aa308ae3520bef04b8053cc0e",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/79208baf6d8b98c550b531f3ddfd0ad32b23e499",
+                "reference": "79208baf6d8b98c550b531f3ddfd0ad32b23e499",
                 "shasum": ""
             },
             "require": {
@@ -1345,7 +1345,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2017-10-02 07:23:43"
+            "time": "2017-10-02 12:00:46"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1465,12 +1465,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/form.git",
-                "reference": "95e1dcc39e833bb1702552a968702608f1a4e77b"
+                "reference": "cf2ed1552129122e2318882f183883e641308a56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/form/zipball/95e1dcc39e833bb1702552a968702608f1a4e77b",
-                "reference": "95e1dcc39e833bb1702552a968702608f1a4e77b",
+                "url": "https://api.github.com/repos/symfony/form/zipball/cf2ed1552129122e2318882f183883e641308a56",
+                "reference": "cf2ed1552129122e2318882f183883e641308a56",
                 "shasum": ""
             },
             "require": {
@@ -1485,9 +1485,9 @@
                 "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
                 "symfony/dependency-injection": "<3.3",
                 "symfony/doctrine-bridge": "<2.7",
-                "symfony/framework-bundle": "<2.7",
+                "symfony/framework-bundle": "<3.4",
                 "symfony/http-kernel": "<3.3.5",
-                "symfony/twig-bridge": "<2.7"
+                "symfony/twig-bridge": "<3.4"
             },
             "require-dev": {
                 "doctrine/collections": "~1.0",
@@ -1537,7 +1537,7 @@
             ],
             "description": "Symfony Form Component",
             "homepage": "https://symfony.com",
-            "time": "2017-10-02 06:49:52"
+            "time": "2017-10-02 12:59:30"
         },
         {
             "name": "symfony/http-foundation",
@@ -1598,12 +1598,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "0b37b39bab4d1f694a87ca44a70a93cec7be8fcf"
+                "reference": "a39a5995cd93d8afed5f71c7dbf4ab804738b482"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/0b37b39bab4d1f694a87ca44a70a93cec7be8fcf",
-                "reference": "0b37b39bab4d1f694a87ca44a70a93cec7be8fcf",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/a39a5995cd93d8afed5f71c7dbf4ab804738b482",
+                "reference": "a39a5995cd93d8afed5f71c7dbf4ab804738b482",
                 "shasum": ""
             },
             "require": {
@@ -1634,7 +1634,7 @@
                 "symfony/expression-language": "~2.8|~3.0|~4.0",
                 "symfony/finder": "~2.8|~3.0|~4.0",
                 "symfony/process": "~2.8|~3.0|~4.0",
-                "symfony/routing": "~2.8|~3.0|~4.0",
+                "symfony/routing": "~3.4|~4.0",
                 "symfony/stopwatch": "~2.8|~3.0|~4.0",
                 "symfony/templating": "~2.8|~3.0|~4.0",
                 "symfony/translation": "~2.8|~3.0|~4.0",
@@ -1678,7 +1678,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2017-10-02 06:49:52"
+            "time": "2017-10-02 23:25:29"
         },
         {
             "name": "symfony/inflector",
@@ -2513,12 +2513,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field.git",
-                "reference": "9db5e6d901f748ade92faffbb5e7aeddbf994134"
+                "reference": "3aedd3007b476fb354ccebe8f1a1f553453f477b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/9db5e6d901f748ade92faffbb5e7aeddbf994134",
-                "reference": "9db5e6d901f748ade92faffbb5e7aeddbf994134",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/3aedd3007b476fb354ccebe8f1a1f553453f477b",
+                "reference": "3aedd3007b476fb354ccebe8f1a1f553453f477b",
                 "shasum": ""
             },
             "require": {
@@ -2559,7 +2559,7 @@
                 }
             ],
             "description": "SexyField helps you build application structure and accompanying forms.",
-            "time": "2017-10-02 10:57:00"
+            "time": "2017-10-03 07:54:32"
         },
         {
             "name": "tardigrades/sexy-field-api",
@@ -2567,12 +2567,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-api.git",
-                "reference": "cc3075f6f25bc103eb7fa8302dc69b342b92e75a"
+                "reference": "8af01ea4d1c8ef0680159a4a25457564fc07fbab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-api/zipball/cc3075f6f25bc103eb7fa8302dc69b342b92e75a",
-                "reference": "cc3075f6f25bc103eb7fa8302dc69b342b92e75a",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-api/zipball/8af01ea4d1c8ef0680159a4a25457564fc07fbab",
+                "reference": "8af01ea4d1c8ef0680159a4a25457564fc07fbab",
                 "shasum": ""
             },
             "require": {
@@ -2580,18 +2580,23 @@
                 "symfony/config": "^3.3.2",
                 "symfony/dependency-injection": "^3.3.2",
                 "symfony/form": "^3.3.2",
-                "symfony/http-foundation": "^3.3.2",
-                "tardigrades/sexy-field": "dev-master",
-                "tardigrades/sexy-field-entity": "dev-master"
+                "symfony/http-foundation": "^3.3.2"
             },
             "require-dev": {
                 "mikey179/vfsstream": "^1.6",
                 "mockery/mockery": "^0.9.9",
                 "phpunit/phpunit": "^6.1",
-                "squizlabs/php_codesniffer": "^2.8"
+                "squizlabs/php_codesniffer": "^2.8",
+                "tardigrades/sexy-field": "dev-master",
+                "tardigrades/sexy-field-doctrine": "dev-master",
+                "tardigrades/sexy-field-entity": "dev-master",
+                "tardigrades/sexy-field-form": "dev-master"
             },
             "suggest": {
-                "tardigrades/sexy-field-doctrine": "You might want to use doctrine for persisting data"
+                "tardigrades/sexy-field": "Without the base package this api is nothing",
+                "tardigrades/sexy-field-doctrine": "You might want to use doctrine for persisting data",
+                "tardigrades/sexy-field-form": "The api requires you to use form",
+                "tardigrated/sexy-field-entity": "You need entities, yes you do"
             },
             "type": "library",
             "autoload": {
@@ -2610,7 +2615,7 @@
                 }
             ],
             "description": "This package adds api functionality to sections.",
-            "time": "2017-09-30 10:19:46"
+            "time": "2017-10-03 08:56:08"
         },
         {
             "name": "tardigrades/sexy-field-doctrine",
@@ -2618,21 +2623,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-doctrine.git",
-                "reference": "7aae2b86b80ab299403416c78edc1e2c27505e1d"
+                "reference": "05a5b85da3c5ed440e5d1239de93b938be8207c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/7aae2b86b80ab299403416c78edc1e2c27505e1d",
-                "reference": "7aae2b86b80ab299403416c78edc1e2c27505e1d",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/05a5b85da3c5ed440e5d1239de93b938be8207c4",
+                "reference": "05a5b85da3c5ed440e5d1239de93b938be8207c4",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": "^2.5.6",
                 "symfony/config": "^3.3.2",
                 "symfony/dependency-injection": "^3.3.2",
-                "symfony/yaml": "^3.3.2",
-                "tardigrades/sexy-field": "dev-master",
-                "tardigrades/sexy-field-entity": "dev-master"
+                "symfony/yaml": "^3.3.2"
             },
             "require-dev": {
                 "mikey179/vfsstream": "^1.6",
@@ -2648,7 +2651,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "proprietary"
+                "MIT"
             ],
             "authors": [
                 {
@@ -2657,7 +2660,7 @@
                 }
             ],
             "description": "SexyField Doctrine package, containing config generator, writer, reader and deleter",
-            "time": "2017-09-30 09:57:17"
+            "time": "2017-10-03 08:25:14"
         },
         {
             "name": "tardigrades/sexy-field-entity",
@@ -2711,21 +2714,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-field-types-base.git",
-                "reference": "27db759cf3a24777d38917b7070321b07e4d7f45"
+                "reference": "2eae166a49faa0f0b15f52a72b4798c7c002ca19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-field-types-base/zipball/27db759cf3a24777d38917b7070321b07e4d7f45",
-                "reference": "27db759cf3a24777d38917b7070321b07e4d7f45",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-field-types-base/zipball/2eae166a49faa0f0b15f52a72b4798c7c002ca19",
+                "reference": "2eae166a49faa0f0b15f52a72b4798c7c002ca19",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": "^2.5.6",
                 "php": "^7.1",
-                "symfony/form": "^3.3.2",
-                "tardigrades/sexy-field": "dev-master",
-                "tardigrades/sexy-field-doctrine": "dev-master",
-                "tardigrades/sexy-field-entity": "dev-master"
+                "symfony/form": "^3.3.2"
             },
             "require-dev": {
                 "mikey179/vfsstream": "^1.6",
@@ -2750,7 +2750,7 @@
                 }
             ],
             "description": "Section field basic field types",
-            "time": "2017-09-30 10:26:19"
+            "time": "2017-10-03 08:29:21"
         },
         {
             "name": "tardigrades/sexy-field-form",
@@ -2758,12 +2758,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-form.git",
-                "reference": "09b28a487bff7171a102822dfa71c9ce7d85571e"
+                "reference": "c723b1ec973b3a190ec037b8b1d4a1124a4d3c34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/09b28a487bff7171a102822dfa71c9ce7d85571e",
-                "reference": "09b28a487bff7171a102822dfa71c9ce7d85571e",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/c723b1ec973b3a190ec037b8b1d4a1124a4d3c34",
+                "reference": "c723b1ec973b3a190ec037b8b1d4a1124a4d3c34",
                 "shasum": ""
             },
             "require": {
@@ -2801,7 +2801,7 @@
                 }
             ],
             "description": "SexyField forms",
-            "time": "2017-10-02 10:22:20"
+            "time": "2017-10-03 08:33:30"
         },
         {
             "name": "twig/extensions",
@@ -4522,6 +4522,7 @@
     "stability-flags": {
         "tardigrades/sexy-field": 20,
         "tardigrades/sexy-field-api": 20,
+        "tardigrades/sexy-field-entity": 20,
         "tardigrades/sexy-field-doctrine": 20,
         "tardigrades/sexy-field-form": 20,
         "tardigrades/sexy-field-field-types-base": 20
