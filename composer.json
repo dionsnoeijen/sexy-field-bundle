@@ -2,6 +2,7 @@
   "name": "tardigrades/sexy-field-bundle",
   "description": "Symfony SexyFieldBundle",
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "keywords": ["Form", "Generator", "Database", "Persistence"],
   "license": "MIT",
   "type": "symfony-bundle",
@@ -12,6 +13,7 @@
     }
   ],
   "require": {
+    "php": "^7.1",
     "symfony/dependency-injection": "^3.3.2",
     "symfony/http-kernel": "^3.3.2",
     "tardigrades/sexy-field": "dev-master",
