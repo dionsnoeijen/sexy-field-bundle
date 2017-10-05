@@ -2686,12 +2686,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-field-types-base.git",
-                "reference": "2eae166a49faa0f0b15f52a72b4798c7c002ca19"
+                "reference": "9b12c7ee5a4bf07b004739ae6b6b2e68e0e301e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-field-types-base/zipball/2eae166a49faa0f0b15f52a72b4798c7c002ca19",
-                "reference": "2eae166a49faa0f0b15f52a72b4798c7c002ca19",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-field-types-base/zipball/9b12c7ee5a4bf07b004739ae6b6b2e68e0e301e3",
+                "reference": "9b12c7ee5a4bf07b004739ae6b6b2e68e0e301e3",
                 "shasum": ""
             },
             "require": {
@@ -2703,7 +2703,8 @@
                 "mikey179/vfsstream": "^1.6",
                 "mockery/mockery": "^0.9.9",
                 "phpunit/phpunit": "^6.1",
-                "squizlabs/php_codesniffer": "^2.8"
+                "squizlabs/php_codesniffer": "^2.8",
+                "tardigrades/sexy-field": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -2722,7 +2723,7 @@
                 }
             ],
             "description": "Section field basic field types",
-            "time": "2017-10-03 08:29:21"
+            "time": "2017-10-05 10:39:16"
         },
         {
             "name": "tardigrades/sexy-field-form",
