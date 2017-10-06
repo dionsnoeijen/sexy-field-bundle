@@ -2797,12 +2797,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-doctrine.git",
-                "reference": "78c25a9d0d89575e3d30cd73903d3ba9015f431c"
+                "reference": "9987d3c471a8a512e10c4ca595e0db251ff64b57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/78c25a9d0d89575e3d30cd73903d3ba9015f431c",
-                "reference": "78c25a9d0d89575e3d30cd73903d3ba9015f431c",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/9987d3c471a8a512e10c4ca595e0db251ff64b57",
+                "reference": "9987d3c471a8a512e10c4ca595e0db251ff64b57",
                 "shasum": ""
             },
             "require": {
@@ -2836,7 +2836,7 @@
                 }
             ],
             "description": "SexyField Doctrine package, containing config generator, writer, reader and deleter",
-            "time": "2017-10-03 12:03:27"
+            "time": "2017-10-06 10:31:33"
         },
         {
             "name": "tardigrades/sexy-field-entity",
@@ -2844,26 +2844,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-entity.git",
-                "reference": "a3668b1628da077e16b5c5ca748c317f4bfa5a44"
+                "reference": "f7e2f8e15002c679351b4a201b12e7e58d61fedd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/a3668b1628da077e16b5c5ca748c317f4bfa5a44",
-                "reference": "a3668b1628da077e16b5c5ca748c317f4bfa5a44",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/f7e2f8e15002c679351b4a201b12e7e58d61fedd",
+                "reference": "f7e2f8e15002c679351b4a201b12e7e58d61fedd",
                 "shasum": ""
             },
             "require": {
                 "beberlei/assert": "2.6.5",
+                "php": "^7.1",
                 "symfony/config": "^3.3.2",
                 "symfony/dependency-injection": "^3.3.2",
-                "symfony/yaml": "^3.3.2",
-                "tardigrades/sexy-field": "dev-master"
+                "symfony/yaml": "^3.3.2"
             },
             "require-dev": {
                 "mikey179/vfsstream": "^1.6",
                 "mockery/mockery": "^0.9.9",
                 "phpunit/phpunit": "^6.1",
-                "squizlabs/php_codesniffer": "^2.8"
+                "squizlabs/php_codesniffer": "^2.8",
+                "tardigrades/sexy-field": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -2873,7 +2874,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "proprietary"
+                "MIT"
             ],
             "authors": [
                 {
@@ -2882,7 +2883,7 @@
                 }
             ],
             "description": "Section field entity generator",
-            "time": "2017-09-30 09:54:56"
+            "time": "2017-10-06 11:03:17"
         },
         {
             "name": "tardigrades/sexy-field-field-types-base",
