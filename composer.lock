@@ -2936,12 +2936,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-form.git",
-                "reference": "a1169a97071566bfd7e3c3ae126b5678e3d7beba"
+                "reference": "d0d551a35595ca43687614f02bff40681556fa19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/a1169a97071566bfd7e3c3ae126b5678e3d7beba",
-                "reference": "a1169a97071566bfd7e3c3ae126b5678e3d7beba",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/d0d551a35595ca43687614f02bff40681556fa19",
+                "reference": "d0d551a35595ca43687614f02bff40681556fa19",
                 "shasum": ""
             },
             "require": {
@@ -2980,7 +2980,7 @@
                 }
             ],
             "description": "SexyField Form. Generate symfony forms based on section configuration.",
-            "time": "2017-10-03 12:35:11"
+            "time": "2017-10-07 09:31:19"
         },
         {
             "name": "twig/extensions",
