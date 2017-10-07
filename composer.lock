@@ -2685,12 +2685,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field.git",
-                "reference": "108c9a8978af4d0a1db55b952a404a573da2a39c"
+                "reference": "ba4711b01a3524254c3d2087edbe4af35f0f4c9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/108c9a8978af4d0a1db55b952a404a573da2a39c",
-                "reference": "108c9a8978af4d0a1db55b952a404a573da2a39c",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/ba4711b01a3524254c3d2087edbe4af35f0f4c9a",
+                "reference": "ba4711b01a3524254c3d2087edbe4af35f0f4c9a",
                 "shasum": ""
             },
             "require": {
@@ -2732,7 +2732,7 @@
                 }
             ],
             "description": "SexyField helps you build application structure and accompanying forms.",
-            "time": "2017-10-03 15:53:31"
+            "time": "2017-10-07 09:17:00"
         },
         {
             "name": "tardigrades/sexy-field-api",
@@ -2844,12 +2844,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-entity.git",
-                "reference": "f7e2f8e15002c679351b4a201b12e7e58d61fedd"
+                "reference": "e6be078acd0b5d4b84b6ba9b22f48694b01786df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/f7e2f8e15002c679351b4a201b12e7e58d61fedd",
-                "reference": "f7e2f8e15002c679351b4a201b12e7e58d61fedd",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/e6be078acd0b5d4b84b6ba9b22f48694b01786df",
+                "reference": "e6be078acd0b5d4b84b6ba9b22f48694b01786df",
                 "shasum": ""
             },
             "require": {
@@ -2883,7 +2883,7 @@
                 }
             ],
             "description": "Section field entity generator",
-            "time": "2017-10-06 11:03:17"
+            "time": "2017-10-06 11:10:02"
         },
         {
             "name": "tardigrades/sexy-field-field-types-base",
