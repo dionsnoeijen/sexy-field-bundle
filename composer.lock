@@ -2685,12 +2685,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field.git",
-                "reference": "7f4d681aeaf4c9b1cab09570f5dbab4f126ec2bd"
+                "reference": "8bb7def43244211e98ec39b3f1971adca3a9a4cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/7f4d681aeaf4c9b1cab09570f5dbab4f126ec2bd",
-                "reference": "7f4d681aeaf4c9b1cab09570f5dbab4f126ec2bd",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/8bb7def43244211e98ec39b3f1971adca3a9a4cd",
+                "reference": "8bb7def43244211e98ec39b3f1971adca3a9a4cd",
                 "shasum": ""
             },
             "require": {
@@ -2732,7 +2732,7 @@
                 }
             ],
             "description": "SexyField helps you build application structure and accompanying forms.",
-            "time": "2017-10-13 08:26:48"
+            "time": "2017-10-13 09:42:38"
         },
         {
             "name": "tardigrades/sexy-field-api",
@@ -2797,12 +2797,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-doctrine.git",
-                "reference": "fd719a582ca68dd8f3ea2b247f12f1d922be6ec0"
+                "reference": "dceb62c5ad4dca3abe7edea92358752750b92d2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/fd719a582ca68dd8f3ea2b247f12f1d922be6ec0",
-                "reference": "fd719a582ca68dd8f3ea2b247f12f1d922be6ec0",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/dceb62c5ad4dca3abe7edea92358752750b92d2c",
+                "reference": "dceb62c5ad4dca3abe7edea92358752750b92d2c",
                 "shasum": ""
             },
             "require": {
@@ -2836,7 +2836,7 @@
                 }
             ],
             "description": "SexyField Doctrine package, containing config generator, writer, reader and deleter",
-            "time": "2017-10-09 11:28:25"
+            "time": "2017-10-13 08:39:45"
         },
         {
             "name": "tardigrades/sexy-field-entity",
@@ -2844,12 +2844,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-entity.git",
-                "reference": "e6be078acd0b5d4b84b6ba9b22f48694b01786df"
+                "reference": "0b33b88ecaa4910c9fe7d04c3cda2290b37067d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/e6be078acd0b5d4b84b6ba9b22f48694b01786df",
-                "reference": "e6be078acd0b5d4b84b6ba9b22f48694b01786df",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/0b33b88ecaa4910c9fe7d04c3cda2290b37067d1",
+                "reference": "0b33b88ecaa4910c9fe7d04c3cda2290b37067d1",
                 "shasum": ""
             },
             "require": {
@@ -2883,7 +2883,7 @@
                 }
             ],
             "description": "Section field entity generator",
-            "time": "2017-10-06 11:10:02"
+            "time": "2017-10-13 08:46:39"
         },
         {
             "name": "tardigrades/sexy-field-field-types-base",
