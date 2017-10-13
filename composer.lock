@@ -2844,12 +2844,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-entity.git",
-                "reference": "b8ee2ca4d8dd4452859ecde1b1a7c4b7fa84c0e5"
+                "reference": "80ad34d910714b23f6ac596abf53788dc97057f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/b8ee2ca4d8dd4452859ecde1b1a7c4b7fa84c0e5",
-                "reference": "b8ee2ca4d8dd4452859ecde1b1a7c4b7fa84c0e5",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/80ad34d910714b23f6ac596abf53788dc97057f2",
+                "reference": "80ad34d910714b23f6ac596abf53788dc97057f2",
                 "shasum": ""
             },
             "require": {
@@ -2883,7 +2883,7 @@
                 }
             ],
             "description": "Section field entity generator",
-            "time": "2017-10-13 14:12:51"
+            "time": "2017-10-13 14:19:46"
         },
         {
             "name": "tardigrades/sexy-field-field-types-base",
@@ -2891,12 +2891,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-field-types-base.git",
-                "reference": "25084fcd98e7919906c2de608d15e49fffb97456"
+                "reference": "1bacd842b7f8907e2af79f8de29b4826f96f1258"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-field-types-base/zipball/25084fcd98e7919906c2de608d15e49fffb97456",
-                "reference": "25084fcd98e7919906c2de608d15e49fffb97456",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-field-types-base/zipball/1bacd842b7f8907e2af79f8de29b4826f96f1258",
+                "reference": "1bacd842b7f8907e2af79f8de29b4826f96f1258",
                 "shasum": ""
             },
             "require": {
@@ -2928,7 +2928,7 @@
                 }
             ],
             "description": "Section field basic field types",
-            "time": "2017-10-13 11:24:09"
+            "time": "2017-10-13 14:27:58"
         },
         {
             "name": "tardigrades/sexy-field-form",
