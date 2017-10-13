@@ -1,0 +1,110 @@
+# Field types configuration for entities with doctrine.
+# Override in your app if different generators are required
+services:
+  Tardigrades\FieldType\Choice:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
+  Tardigrades\FieldType\DateTime\DateTimeField:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          prePersist: Tardigrades\FieldType\Generator\EntityPrePersistGenerator
+          preUpdate: Tardigrades\FieldType\Generator\EntityPreUpdateGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
+  Tardigrades\FieldType\Email\Email:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
+  Tardigrades\FieldType\Integer\Integer:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
+  Tardigrades\FieldType\Number\Number:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
+  Tardigrades\FieldType\Relationship\Relationship:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Relationship\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Relationship\Generator\EntityMethodsGenerator
+          constructor: Tardigrades\FieldType\Relationship\Generator\EntityConstructorGenerator
+          use: Tardigrades\FieldType\Generator\EntityUseGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          manyToOne: Tardigrades\FieldType\Relationship\Generator\DoctrineManyToOneGenerator
+          oneToMany: Tardigrades\FieldType\Relationship\Generator\DoctrineOneToManyGenerator
+          oneToOne: Tardigrades\FieldType\Relationship\Generator\DoctrineOneToOneGenerator
+          manyToMany: Tardigrades\FieldType\Relationship\Generator\DoctrineManyToManyGenerator
+
+  Tardigrades\FieldType\RichTextArea\RichTextArea:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
+  Tardigrades\FieldType\Slug\Slug:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          prePersist: Tardigrades\FieldType\Slug\Generator\EntityPrePersistGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
+  Tardigrades\FieldType\TextArea\TextArea:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
+  Tardigrades\FieldType\TextInput\TextInput:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
