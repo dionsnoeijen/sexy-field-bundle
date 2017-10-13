@@ -35,6 +35,7 @@ class SexyFieldExtension extends Extension
         );
 
         $loader->load('services.yml');
+        $loader->load('fieldtypes.yml');
 
         (new BasePackage())->load($configs, $container);
         (new SectionFieldEntityExtension())->load($configs, $container);
