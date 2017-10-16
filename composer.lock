@@ -2688,12 +2688,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field.git",
-                "reference": "518a04ff6b778867bd3ab729435684bd23d112ed"
+                "reference": "d661628073805ebe2fbbc72cbc2f3c81e7910926"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/518a04ff6b778867bd3ab729435684bd23d112ed",
-                "reference": "518a04ff6b778867bd3ab729435684bd23d112ed",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/d661628073805ebe2fbbc72cbc2f3c81e7910926",
+                "reference": "d661628073805ebe2fbbc72cbc2f3c81e7910926",
                 "shasum": ""
             },
             "require": {
@@ -2735,7 +2735,7 @@
                 }
             ],
             "description": "SexyField helps you build application structure and accompanying forms.",
-            "time": "2017-10-16 08:13:18"
+            "time": "2017-10-16 08:38:43"
         },
         {
             "name": "tardigrades/sexy-field-api",
