@@ -1,7 +1,7 @@
 # Field types configuration for entities with doctrine.
 # Override in your app if different generators are required
 services:
-  Tardigrades\FieldType\Choice:
+  Tardigrades\FieldType\Choice\Choice:
     arguments:
       -
         entity:
