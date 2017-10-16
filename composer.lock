@@ -2688,12 +2688,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field.git",
-                "reference": "d661628073805ebe2fbbc72cbc2f3c81e7910926"
+                "reference": "ce385c3434d81bd9cbbb17ee5b2119feed2d1f87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/d661628073805ebe2fbbc72cbc2f3c81e7910926",
-                "reference": "d661628073805ebe2fbbc72cbc2f3c81e7910926",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/ce385c3434d81bd9cbbb17ee5b2119feed2d1f87",
+                "reference": "ce385c3434d81bd9cbbb17ee5b2119feed2d1f87",
                 "shasum": ""
             },
             "require": {
@@ -2704,6 +2704,7 @@
                 "symfony/config": "^3.3.2",
                 "symfony/console": "^3.3.2",
                 "symfony/dependency-injection": "^3.3.2",
+                "symfony/event-dispatcher": "^3.3.2",
                 "symfony/form": "^3.3.2",
                 "symfony/inflector": "^3.3.2",
                 "symfony/security": "^3.3.2",
@@ -2735,7 +2736,7 @@
                 }
             ],
             "description": "SexyField helps you build application structure and accompanying forms.",
-            "time": "2017-10-16 08:38:43"
+            "time": "2017-10-16 10:38:42"
         },
         {
             "name": "tardigrades/sexy-field-api",
@@ -2800,12 +2801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-doctrine.git",
-                "reference": "25358e71a78e3e8480680db92f0778d2b3e2a9a6"
+                "reference": "2f64054e9d7db46b9008cef7e65724ddaf94c14f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/25358e71a78e3e8480680db92f0778d2b3e2a9a6",
-                "reference": "25358e71a78e3e8480680db92f0778d2b3e2a9a6",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/2f64054e9d7db46b9008cef7e65724ddaf94c14f",
+                "reference": "2f64054e9d7db46b9008cef7e65724ddaf94c14f",
                 "shasum": ""
             },
             "require": {
@@ -2839,7 +2840,7 @@
                 }
             ],
             "description": "SexyField Doctrine package, containing config generator, writer, reader and deleter",
-            "time": "2017-10-13 14:48:18"
+            "time": "2017-10-16 10:39:23"
         },
         {
             "name": "tardigrades/sexy-field-entity",
