@@ -979,28 +979,31 @@
         },
         {
             "name": "php-coveralls/php-coveralls",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-coveralls/php-coveralls.git",
-                "reference": "da51d304fe8622bf9a6da39a8446e7afd432115c"
+                "reference": "9c07b63acbc9709344948b6fd4f63a32b2ef4127"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-coveralls/php-coveralls/zipball/da51d304fe8622bf9a6da39a8446e7afd432115c",
-                "reference": "da51d304fe8622bf9a6da39a8446e7afd432115c",
+                "url": "https://api.github.com/repos/php-coveralls/php-coveralls/zipball/9c07b63acbc9709344948b6fd4f63a32b2ef4127",
+                "reference": "9c07b63acbc9709344948b6fd4f63a32b2ef4127",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-simplexml": "*",
-                "guzzle/guzzle": "^2.8|^3.0",
-                "php": ">=5.3.3",
+                "guzzle/guzzle": "^2.8 || ^3.0",
+                "php": "^5.3.3 || ^7.0",
                 "psr/log": "^1.0",
-                "symfony/config": "^2.1|^3.0",
-                "symfony/console": "^2.1|^3.0",
-                "symfony/stopwatch": "^2.0|^3.0",
-                "symfony/yaml": "^2.0|^3.0"
+                "symfony/config": "^2.1 || ^3.0 || ^4.0",
+                "symfony/console": "^2.1 || ^3.0 || ^4.0",
+                "symfony/stopwatch": "^2.0 || ^3.0 || ^4.0",
+                "symfony/yaml": "^2.0 || ^3.0 || ^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.4.3 || ^6.0"
             },
             "suggest": {
                 "symfony/http-kernel": "Allows Symfony integration"
@@ -1026,14 +1029,14 @@
                 }
             ],
             "description": "PHP client library for Coveralls API",
-            "homepage": "https://github.com/satooshi/php-coveralls",
+            "homepage": "https://github.com/php-coveralls/php-coveralls",
             "keywords": [
                 "ci",
                 "coverage",
                 "github",
                 "test"
             ],
-            "time": "2016-01-20T17:35:46+00:00"
+            "time": "2017-10-14T23:15:34+00:00"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -2685,12 +2688,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field.git",
-                "reference": "d5d0fd7415b60d8b5281ec8147e0c41f2811bda3"
+                "reference": "518a04ff6b778867bd3ab729435684bd23d112ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/d5d0fd7415b60d8b5281ec8147e0c41f2811bda3",
-                "reference": "d5d0fd7415b60d8b5281ec8147e0c41f2811bda3",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/518a04ff6b778867bd3ab729435684bd23d112ed",
+                "reference": "518a04ff6b778867bd3ab729435684bd23d112ed",
                 "shasum": ""
             },
             "require": {
@@ -2732,7 +2735,7 @@
                 }
             ],
             "description": "SexyField helps you build application structure and accompanying forms.",
-            "time": "2017-10-13 14:41:37"
+            "time": "2017-10-16 08:13:18"
         },
         {
             "name": "tardigrades/sexy-field-api",
@@ -2844,12 +2847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-entity.git",
-                "reference": "766db8c1b9ee45eaef40b2e949766a9b5f75124c"
+                "reference": "43d2867ee5f46b7ed8404362b41682a1c6b1c860"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/766db8c1b9ee45eaef40b2e949766a9b5f75124c",
-                "reference": "766db8c1b9ee45eaef40b2e949766a9b5f75124c",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/43d2867ee5f46b7ed8404362b41682a1c6b1c860",
+                "reference": "43d2867ee5f46b7ed8404362b41682a1c6b1c860",
                 "shasum": ""
             },
             "require": {
@@ -2883,7 +2886,7 @@
                 }
             ],
             "description": "Section field entity generator",
-            "time": "2017-10-13 14:46:18"
+            "time": "2017-10-13 15:11:12"
         },
         {
             "name": "tardigrades/sexy-field-field-types-base",
@@ -3821,16 +3824,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "6.4.1",
+            "version": "6.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b770d8ba7e60295ee91d69d5a5e01ae833cac220"
+                "reference": "ae6e2e062ff55263c7b04374c190aca45872b26a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b770d8ba7e60295ee91d69d5a5e01ae833cac220",
-                "reference": "b770d8ba7e60295ee91d69d5a5e01ae833cac220",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ae6e2e062ff55263c7b04374c190aca45872b26a",
+                "reference": "ae6e2e062ff55263c7b04374c190aca45872b26a",
                 "shasum": ""
             },
             "require": {
@@ -3901,7 +3904,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-10-07T17:53:53+00:00"
+            "time": "2017-10-15T06:16:19+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
