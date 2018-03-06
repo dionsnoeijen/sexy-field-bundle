@@ -10,32 +10,36 @@ services:
   # This is the configuration that assumes you use the sexy-field-doctrine and sexy-field-entity package
   # If you have more generators, or more readers and writers, override this configuration
   # in your own application services configuration.
-  section_field.generator:
-    class: Tardigrades\SectionField\Generator\Generators
+  Tardigrades\SectionField\Generator\Generators:
     arguments:
       -
         - '@section_field.generator.entity_generator'
         - '@section_field.generator.doctrine_config_generator'
 
-  section_field.create.section:
-    class: Tardigrades\SectionField\Service\CreateSection
+  section_field.generator: '@Tardigrades\SectionField\Generator\Generators'
+
+  Tardigrades\SectionField\Service\CreateSection:
     arguments:
       -
         - '@section_field.doctrine.create.section'
       - '@event_dispatcher'
 
-  section_field.read.section:
-    class: Tardigrades\SectionField\Service\ReadSection
+  section_field.create.section: '@Tardigrades\SectionField\Service\CreateSection'
+
+  Tardigrades\SectionField\Service\ReadSection:
     arguments:
       -
         - '@section_field.doctrine.read.section'
       - '@section_field.manager.doctrine.section_manager'
       - '@event_dispatcher'
 
-  section_field.delete.section:
-    class: Tardigrades\SectionField\Service\DeleteSection
+  section_field.read.section: '@Tardigrades\SectionField\Service\ReadSection'
+
+  Tardigrades\SectionField\Service\DeleteSection:
     arguments:
       -
         - '@section_field.doctrine.delete.section'
       - '@event_dispatcher'
+
+  section_field.delete.section: '@Tardigrades\SectionField\Service\DeleteSection'
 
