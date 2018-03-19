@@ -2713,12 +2713,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field.git",
-                "reference": "28af371497650522187256c2081d4314b6d8bf75"
+                "reference": "56ac858b8e38687a7d412f87a9153defca826b3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/28af371497650522187256c2081d4314b6d8bf75",
-                "reference": "28af371497650522187256c2081d4314b6d8bf75",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/56ac858b8e38687a7d412f87a9153defca826b3a",
+                "reference": "56ac858b8e38687a7d412f87a9153defca826b3a",
                 "shasum": ""
             },
             "require": {
@@ -2762,7 +2762,7 @@
                 }
             ],
             "description": "SexyField helps you build application structure and accompanying forms.",
-            "time": "2018-03-19 13:37:05"
+            "time": "2018-03-19 15:13:10"
         },
         {
             "name": "tardigrades/sexy-field-api",
@@ -2828,12 +2828,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-doctrine.git",
-                "reference": "9e10646bb90274113a05c8f79e396a5928a70ba4"
+                "reference": "e2f098e05f82fa80b20efb15eb660002c39a1811"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/9e10646bb90274113a05c8f79e396a5928a70ba4",
-                "reference": "9e10646bb90274113a05c8f79e396a5928a70ba4",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/e2f098e05f82fa80b20efb15eb660002c39a1811",
+                "reference": "e2f098e05f82fa80b20efb15eb660002c39a1811",
                 "shasum": ""
             },
             "require": {
@@ -2868,7 +2868,7 @@
                 }
             ],
             "description": "SexyField Doctrine package, containing config generator, writer, reader and deleter",
-            "time": "2018-03-19 13:50:51"
+            "time": "2018-03-19 15:19:10"
         },
         {
             "name": "tardigrades/sexy-field-entity",
