@@ -2927,12 +2927,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-field-types-base.git",
-                "reference": "d3a4abfbab01194debf138e52dfc3df82f986ad1"
+                "reference": "3c6a91818897016050dd3a17aab6578ef2c41ebe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-field-types-base/zipball/d3a4abfbab01194debf138e52dfc3df82f986ad1",
-                "reference": "d3a4abfbab01194debf138e52dfc3df82f986ad1",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-field-types-base/zipball/3c6a91818897016050dd3a17aab6578ef2c41ebe",
+                "reference": "3c6a91818897016050dd3a17aab6578ef2c41ebe",
                 "shasum": ""
             },
             "require": {
@@ -2965,7 +2965,7 @@
                 }
             ],
             "description": "Section field basic field types",
-            "time": "2018-04-16 12:43:24"
+            "time": "2018-04-17 09:13:41"
         },
         {
             "name": "tardigrades/sexy-field-form",
