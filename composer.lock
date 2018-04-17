@@ -2879,12 +2879,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-entity.git",
-                "reference": "c9d0b7aa45de04fe3b8856f7ece796b6be3ca7c7"
+                "reference": "d12c65ef1341a9d80c07a1aec1e5574ae1af10f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/c9d0b7aa45de04fe3b8856f7ece796b6be3ca7c7",
-                "reference": "c9d0b7aa45de04fe3b8856f7ece796b6be3ca7c7",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/d12c65ef1341a9d80c07a1aec1e5574ae1af10f5",
+                "reference": "d12c65ef1341a9d80c07a1aec1e5574ae1af10f5",
                 "shasum": ""
             },
             "require": {
@@ -2919,7 +2919,7 @@
                 }
             ],
             "description": "Section field entity generator",
-            "time": "2018-04-06 09:36:31"
+            "time": "2018-04-17 10:38:56"
         },
         {
             "name": "tardigrades/sexy-field-field-types-base",
