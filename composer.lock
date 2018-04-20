@@ -2772,12 +2772,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-api.git",
-                "reference": "8002d00850d22426ce05603aacd4cbbf69ee9f31"
+                "reference": "9d05816b90b1dc01088fb5e5e045d60e9f784d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-api/zipball/8002d00850d22426ce05603aacd4cbbf69ee9f31",
-                "reference": "8002d00850d22426ce05603aacd4cbbf69ee9f31",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-api/zipball/9d05816b90b1dc01088fb5e5e045d60e9f784d7e",
+                "reference": "9d05816b90b1dc01088fb5e5e045d60e9f784d7e",
                 "shasum": ""
             },
             "require": {
@@ -2823,7 +2823,7 @@
                 }
             ],
             "description": "This package adds api functionality to sections.",
-            "time": "2018-04-19 10:27:39"
+            "time": "2018-04-20 12:50:56"
         },
         {
             "name": "tardigrades/sexy-field-doctrine",
