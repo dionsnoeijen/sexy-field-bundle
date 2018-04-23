@@ -2772,12 +2772,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-api.git",
-                "reference": "9d05816b90b1dc01088fb5e5e045d60e9f784d7e"
+                "reference": "4900e4eae10c5f57d536f8ca6188c31d636c51ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-api/zipball/9d05816b90b1dc01088fb5e5e045d60e9f784d7e",
-                "reference": "9d05816b90b1dc01088fb5e5e045d60e9f784d7e",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-api/zipball/4900e4eae10c5f57d536f8ca6188c31d636c51ae",
+                "reference": "4900e4eae10c5f57d536f8ca6188c31d636c51ae",
                 "shasum": ""
             },
             "require": {
@@ -2823,7 +2823,7 @@
                 }
             ],
             "description": "This package adds api functionality to sections.",
-            "time": "2018-04-20 12:50:56"
+            "time": "2018-04-23 08:49:29"
         },
         {
             "name": "tardigrades/sexy-field-doctrine",
@@ -2879,12 +2879,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-entity.git",
-                "reference": "d12c65ef1341a9d80c07a1aec1e5574ae1af10f5"
+                "reference": "c8bf798d65d37aa6b8b787d33f08383a1d1f853f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/d12c65ef1341a9d80c07a1aec1e5574ae1af10f5",
-                "reference": "d12c65ef1341a9d80c07a1aec1e5574ae1af10f5",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/c8bf798d65d37aa6b8b787d33f08383a1d1f853f",
+                "reference": "c8bf798d65d37aa6b8b787d33f08383a1d1f853f",
                 "shasum": ""
             },
             "require": {
@@ -2919,7 +2919,7 @@
                 }
             ],
             "description": "Section field entity generator",
-            "time": "2018-04-17 10:38:56"
+            "time": "2018-04-23 12:55:24"
         },
         {
             "name": "tardigrades/sexy-field-field-types-base",
