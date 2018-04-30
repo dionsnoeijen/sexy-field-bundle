@@ -2715,12 +2715,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field.git",
-                "reference": "ee83c21143c7a1e0fed03fb03fa69f088c2e7dd9"
+                "reference": "d17c1d8207786d7769cd0e3db88af367152b5290"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/ee83c21143c7a1e0fed03fb03fa69f088c2e7dd9",
-                "reference": "ee83c21143c7a1e0fed03fb03fa69f088c2e7dd9",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/d17c1d8207786d7769cd0e3db88af367152b5290",
+                "reference": "d17c1d8207786d7769cd0e3db88af367152b5290",
                 "shasum": ""
             },
             "require": {
@@ -2764,7 +2764,7 @@
                 }
             ],
             "description": "SexyField helps you build application structure and accompanying forms.",
-            "time": "2018-04-16 11:50:24"
+            "time": "2018-04-30T11:59:18+00:00"
         },
         {
             "name": "tardigrades/sexy-field-api",
@@ -2823,7 +2823,7 @@
                 }
             ],
             "description": "This package adds api functionality to sections.",
-            "time": "2018-04-23 08:49:29"
+            "time": "2018-04-23T08:49:29+00:00"
         },
         {
             "name": "tardigrades/sexy-field-doctrine",
@@ -2871,7 +2871,7 @@
                 }
             ],
             "description": "SexyField Doctrine package, containing config generator, writer, reader and deleter",
-            "time": "2018-04-19 08:31:09"
+            "time": "2018-04-19T08:31:09+00:00"
         },
         {
             "name": "tardigrades/sexy-field-entity",
@@ -2879,12 +2879,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-entity.git",
-                "reference": "8757c53547573888354413ce60cc5f8fb3efddc0"
+                "reference": "5613222f9d9d4080e4fbaf261980878946477b14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/8757c53547573888354413ce60cc5f8fb3efddc0",
-                "reference": "8757c53547573888354413ce60cc5f8fb3efddc0",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/5613222f9d9d4080e4fbaf261980878946477b14",
+                "reference": "5613222f9d9d4080e4fbaf261980878946477b14",
                 "shasum": ""
             },
             "require": {
@@ -2919,7 +2919,7 @@
                 }
             ],
             "description": "Section field entity generator",
-            "time": "2018-04-30 07:42:23"
+            "time": "2018-04-30T11:59:55+00:00"
         },
         {
             "name": "tardigrades/sexy-field-field-types-base",
@@ -2965,7 +2965,7 @@
                 }
             ],
             "description": "Section field basic field types",
-            "time": "2018-04-30 06:41:44"
+            "time": "2018-04-30T06:41:44+00:00"
         },
         {
             "name": "tardigrades/sexy-field-form",
@@ -3019,7 +3019,7 @@
                 }
             ],
             "description": "SexyField Form. Generate symfony forms based on section configuration.",
-            "time": "2018-04-06 09:41:13"
+            "time": "2018-04-06T09:41:13+00:00"
         },
         {
             "name": "twig/extensions",
