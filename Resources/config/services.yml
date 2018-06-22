@@ -23,6 +23,7 @@ services:
       -
         - '@section_field.doctrine.create.section'
       - '@event_dispatcher'
+      - '@default.cache'
 
   section_field.create.section: '@Tardigrades\SectionField\Service\CreateSection'
 
