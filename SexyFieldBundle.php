@@ -56,7 +56,8 @@ class SexyFieldBundle extends Bundle
             $this->container->get('Tardigrades\Command\UpdateFieldCommand'),
             $this->container->get('Tardigrades\Command\DeleteFieldCommand'),
             $this->container->get('Tardigrades\Command\ListFieldCommand'),
-            $this->container->get('Tardigrades\Command\InstallDirectoryCommand')
+            $this->container->get('Tardigrades\Command\InstallDirectoryCommand'),
+            $this->container->get('Tardigrades\Command\EnsureCacheCommand')
         ]);
 
         return parent::registerCommands($application);
