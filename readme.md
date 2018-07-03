@@ -51,9 +51,9 @@ If you want, enable caching.
 
 Add this to your config.yml
 
-  doctrine:
-    dbal:
-      schema_filter: ~^(?!cache_items)~
+    doctrine:
+      dbal:
+        schema_filter: ~^(?!cache_items)~
 
 Then run: `bin/console sf:ensure-cache` to create the caching table in the database
 
