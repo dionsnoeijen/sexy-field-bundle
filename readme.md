@@ -46,4 +46,21 @@ class AppKernel extends Kernel
 Step 3: Execute doctrine schema command to generate database structure
 ----------------------------------------------------------------------
 
+If you want, enable caching.
+----------------------------
 
+Add this to your config.yml
+
+  doctrine:
+    dbal:
+      schema_filter: ~^(?!cache_items)~
+
+Then run: `bin/console sf:ensure-cache` to create the caching table in the database
+
+And add this service to your services.yml
+
+    Tardigrades\SectionField\Service\DefaultCache:
+        public: false
+        arguments:
+          - '@Symfony\Component\Cache\Adapter\TagAwareAdapter'
+          - true
