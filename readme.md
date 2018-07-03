@@ -49,15 +49,15 @@ Step 3: Execute doctrine schema command to generate database structure
 If you want, enable caching.
 ----------------------------
 
-Add this to your config.yml
+1: Add this to your config.yml, this will prevent doctrine migrations to remove the table that will be created in the next step.
 
     doctrine:
       dbal:
         schema_filter: ~^(?!cache_items)~
 
-Then run: `bin/console sf:ensure-cache` to create the caching table in the database
+2: Then run: `bin/console sf:ensure-cache` to create the caching table in the database
 
-And add this service to your services.yml
+3: And add this service to your services.yml . The second argument (true) is used to enable or disable caching. You can make a variable for this.
 
     Tardigrades\SectionField\Service\DefaultCache:
         public: false
