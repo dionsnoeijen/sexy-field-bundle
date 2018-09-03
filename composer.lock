@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "cd5cab9d041c3818c3a88cecc11f77dd",
@@ -2935,12 +2935,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field.git",
-                "reference": "d7b75f1ba903ac88543d40420fb898aa8f9785a9"
+                "reference": "cc9af3b3d5b46dd677ec5d99483d307ea77a2fe0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/d7b75f1ba903ac88543d40420fb898aa8f9785a9",
-                "reference": "d7b75f1ba903ac88543d40420fb898aa8f9785a9",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field/zipball/cc9af3b3d5b46dd677ec5d99483d307ea77a2fe0",
+                "reference": "cc9af3b3d5b46dd677ec5d99483d307ea77a2fe0",
                 "shasum": ""
             },
             "require": {
@@ -2985,7 +2985,7 @@
                 }
             ],
             "description": "SexyField helps you build application structure and accompanying forms.",
-            "time": "2018-06-22 07:29:09"
+            "time": "2018-09-03T10:03:16+00:00"
         },
         {
             "name": "tardigrades/sexy-field-api",
@@ -2993,12 +2993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-api.git",
-                "reference": "33ac9363e97ed133395dd30203f890772e417536"
+                "reference": "a2d054c3be62409d23badc523a2a8de8ebbb8703"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-api/zipball/33ac9363e97ed133395dd30203f890772e417536",
-                "reference": "33ac9363e97ed133395dd30203f890772e417536",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-api/zipball/a2d054c3be62409d23badc523a2a8de8ebbb8703",
+                "reference": "a2d054c3be62409d23badc523a2a8de8ebbb8703",
                 "shasum": ""
             },
             "require": {
@@ -3044,7 +3044,7 @@
                 }
             ],
             "description": "This package adds api functionality to sections.",
-            "time": "2018-06-14 11:07:19"
+            "time": "2018-08-27T09:05:52+00:00"
         },
         {
             "name": "tardigrades/sexy-field-doctrine",
@@ -3052,12 +3052,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-doctrine.git",
-                "reference": "7406bcbb3e11de23c07a569048acbef332e79e06"
+                "reference": "f4b011db9f61cfb162b956333d9fc4ab1c372250"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/7406bcbb3e11de23c07a569048acbef332e79e06",
-                "reference": "7406bcbb3e11de23c07a569048acbef332e79e06",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/f4b011db9f61cfb162b956333d9fc4ab1c372250",
+                "reference": "f4b011db9f61cfb162b956333d9fc4ab1c372250",
                 "shasum": ""
             },
             "require": {
@@ -3092,7 +3092,7 @@
                 }
             ],
             "description": "SexyField Doctrine package, containing config generator, writer, reader and deleter",
-            "time": "2018-06-19 12:37:50"
+            "time": "2018-08-27T11:06:14+00:00"
         },
         {
             "name": "tardigrades/sexy-field-entity",
@@ -3100,12 +3100,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-entity.git",
-                "reference": "a74d30956a124c1f65cdfe6ad60327250f209ed0"
+                "reference": "e5cbf384535eb569b98cad0a526051ca7daaf835"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/a74d30956a124c1f65cdfe6ad60327250f209ed0",
-                "reference": "a74d30956a124c1f65cdfe6ad60327250f209ed0",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-entity/zipball/e5cbf384535eb569b98cad0a526051ca7daaf835",
+                "reference": "e5cbf384535eb569b98cad0a526051ca7daaf835",
                 "shasum": ""
             },
             "require": {
@@ -3140,7 +3140,7 @@
                 }
             ],
             "description": "Section field entity generator",
-            "time": "2018-06-19 12:40:28"
+            "time": "2018-08-09T08:40:03+00:00"
         },
         {
             "name": "tardigrades/sexy-field-field-types-base",
@@ -3148,12 +3148,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-field-types-base.git",
-                "reference": "f692c57c86c106433276b04731d8f58b0df31196"
+                "reference": "de70803f62ac93ac6fe437e09eb8b66edca86aa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-field-types-base/zipball/f692c57c86c106433276b04731d8f58b0df31196",
-                "reference": "f692c57c86c106433276b04731d8f58b0df31196",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-field-types-base/zipball/de70803f62ac93ac6fe437e09eb8b66edca86aa6",
+                "reference": "de70803f62ac93ac6fe437e09eb8b66edca86aa6",
                 "shasum": ""
             },
             "require": {
@@ -3186,7 +3186,7 @@
                 }
             ],
             "description": "Section field basic field types",
-            "time": "2018-05-04 06:33:12"
+            "time": "2018-07-17T12:40:08+00:00"
         },
         {
             "name": "tardigrades/sexy-field-form",
@@ -3194,12 +3194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-form.git",
-                "reference": "7c953ced35c9b433b669f4e4e863a8b370cd9dc8"
+                "reference": "61c7b911951fd286474625bed35a21ebbd6b0ca4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/7c953ced35c9b433b669f4e4e863a8b370cd9dc8",
-                "reference": "7c953ced35c9b433b669f4e4e863a8b370cd9dc8",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/61c7b911951fd286474625bed35a21ebbd6b0ca4",
+                "reference": "61c7b911951fd286474625bed35a21ebbd6b0ca4",
                 "shasum": ""
             },
             "require": {
@@ -3240,7 +3240,7 @@
                 }
             ],
             "description": "SexyField Form. Generate symfony forms based on section configuration.",
-            "time": "2018-05-03 12:28:40"
+            "time": "2018-07-02T15:04:40+00:00"
         },
         {
             "name": "twig/extensions",
