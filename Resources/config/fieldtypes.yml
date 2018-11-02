@@ -11,6 +11,16 @@ services:
         doctrine:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
+  Tardigrades\FieldType\Country\Country:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
   Tardigrades\FieldType\DateTime\DateTimeField:
     arguments:
       -
