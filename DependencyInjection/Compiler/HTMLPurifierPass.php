@@ -1,6 +1,6 @@
 <?php
 
-namespace Tardigrades\DependencyInjection\Compiler;
+namespace Tardigrades\Bundle\SexyFieldBundle\DependencyInjection\Compiler;
 
 use Psr\Container\ContainerInterface;
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Reference;
 
 class HTMLPurifierPass implements CompilerPassInterface
 {
-    const PURIFIER_TAG = 'tardigrades.sexy_field_form.html_purifier';
+    const PURIFIER_TAG = 'tardigrades.sexy_field.html_purifier';
 
     /**
      * {@inheritdoc}
@@ -41,8 +41,8 @@ class HTMLPurifierPass implements CompilerPassInterface
             $purifier = $container->getDefinition($id);
 
             if (empty($purifier->getArguments())) {
-                $configId = "sexy_field_form.config.$profile";
-                $config = $container->hasDefinition($configId) ? $configId : 'sexy_field_form.config.default';
+                $configId = "sexy_field.config.$profile";
+                $config = $container->hasDefinition($configId) ? $configId : 'sexy_field.config.default';
                 $purifier->addArgument(new Reference($config));
             }
 

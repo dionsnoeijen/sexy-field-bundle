@@ -17,6 +17,8 @@ use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
+use Symfony\Component\DependencyInjection\Reference;
+use Tardigrades\Bundle\SexyFieldBundle\DependencyInjection\Compiler\HTMLPurifierPass;
 use Tardigrades\DependencyInjection\SectionFieldApiExtension;
 use Tardigrades\DependencyInjection\SectionFieldDoctrineExtension;
 use Tardigrades\DependencyInjection\SectionFieldEntityExtension;
