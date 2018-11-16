@@ -21,7 +21,7 @@ services:
         doctrine:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
-  Tardigrades\FieldType\Date\Date:
+  Tardigrades\FieldType\Birthday\Birthday:
       arguments:
         -
           entity:
