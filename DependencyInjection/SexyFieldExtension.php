@@ -48,20 +48,8 @@ class SexyFieldExtension extends Extension
             throw $exception;
         }
 
-        (new BasePackage())->load($configs, $container);
-        (new SectionFieldEntityExtension())->load($configs, $container);
-        (new SectionFieldDoctrineExtension())->load($configs, $container);
-        (new SexyFieldFormExtension())->load($configs, $container);
-        (new SectionFieldApiExtension())->load($configs, $container);
-
-        /* Prepend the default configuration. This cannot be defined within the
-         * Configuration class, since the root node's children are array
-         * prototypes.
-         *
-         * This cache path may be suppressed by either unsetting the "default"
-         * configuration (relying on canBeUnset() on the prototype node) or
-         * setting the "Cache.SerializerPath" option to null.
-         */
+        // Prepend a default configuration so you don't have to
+        // configure sexy-field
         array_unshift($configs, [
             'default' => [
                 'Cache.SerializerPath' => '%kernel.cache_dir%/htmlpurifier',
@@ -69,6 +57,13 @@ class SexyFieldExtension extends Extension
         ]);
 
         $configs = $this->processConfiguration(new Configuration(), $configs);
+
+        (new BasePackage())->load($configs, $container);
+        (new SectionFieldEntityExtension())->load($configs, $container);
+        (new SectionFieldDoctrineExtension())->load($configs, $container);
+        (new SexyFieldFormExtension())->load($configs, $container);
+        (new SectionFieldApiExtension())->load($configs, $container);
+
 
         $serializerPaths = [];
 

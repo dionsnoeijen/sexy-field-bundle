@@ -1,5 +1,15 @@
 <?php
-declare(strict_types=1);
+
+/*
+ * This file is part of the SexyField package.
+ *
+ * (c) Dion Snoeijen <hallo@dionsnoeijen.nl>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+declare (strict_types=1);
 
 namespace Tardigrades\Bundle\SexyFieldBundle\DependencyInjection;
 
@@ -14,7 +24,13 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('exercise_html_purifier');
+        if (method_exists($treeBuilder, 'getRootNode')) {
+            $rootNode = $treeBuilder->getRootNode();
+        } else {
+            // BC layer for symfony/config 4.1 and older
+            $rootNode = $treeBuilder->root('sexy_field');
+        }
+
         $rootNode
             ->useAttributeAsKey('name')
             ->prototype('array')
@@ -23,6 +39,7 @@ class Configuration implements ConfigurationInterface
             ->end()
             ->end()
         ;
+
         return $treeBuilder;
     }
 }
