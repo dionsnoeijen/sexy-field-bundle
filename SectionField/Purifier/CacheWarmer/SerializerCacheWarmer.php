@@ -1,6 +1,6 @@
 <?php
 
-namespace Tardigrades\SectionField\Purifier\CacheWarmer;
+namespace Tardigrades\Bundle\SexyFieldBundle\SectionField\Purifier\CacheWarmer;
 
 use HTMLPurifier;
 

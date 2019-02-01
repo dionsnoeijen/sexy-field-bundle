@@ -58,15 +58,7 @@ class SexyFieldExtension extends Extension
 
         $configs = $this->processConfiguration(new Configuration(), $configs);
 
-        (new BasePackage())->load($configs, $container);
-        (new SectionFieldEntityExtension())->load($configs, $container);
-        (new SectionFieldDoctrineExtension())->load($configs, $container);
-        (new SexyFieldFormExtension())->load($configs, $container);
-        (new SectionFieldApiExtension())->load($configs, $container);
-
-
         $serializerPaths = [];
-
         foreach ($configs as $name => $config) {
             $configId = "sexy_field.config.$name";
             $configDefinition = $container->register($configId, \HTMLPurifier_Config::class)
@@ -97,5 +89,11 @@ class SexyFieldExtension extends Extension
             ->setPublic(false);
 
         $container->setParameter('sexy_field.cache_warmer.serializer.paths', array_unique($serializerPaths));
+
+        (new BasePackage())->load($configs, $container);
+        (new SectionFieldEntityExtension())->load($configs, $container);
+        (new SectionFieldDoctrineExtension())->load($configs, $container);
+        (new SexyFieldFormExtension())->load($configs, $container);
+        (new SectionFieldApiExtension())->load($configs, $container);
     }
 }

@@ -48,7 +48,7 @@ services:
   HTMLPurifier:
     class: \HTMLPurifier
 
-  Tardigrades\SectionField\Purifier\CacheWarmer\SerializerCacheWarmer:
+  Tardigrades\Bundle\SexyFieldBundle\SectionField\Purifier\CacheWarmer\SerializerCacheWarmer:
     public: false
     arguments:
       - [ '%kernel.cache_dir%/htmlpurifier' ]
