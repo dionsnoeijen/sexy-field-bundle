@@ -20,7 +20,7 @@
     "tardigrades/sexy-field-api": "dev-master",
     "tardigrades/sexy-field-entity": "dev-master",
     "tardigrades/sexy-field-doctrine": "dev-master",
-    "tardigrades/sexy-field-form": "dev-integrate-purifier",
+    "tardigrades/sexy-field-form": "dev-master",
     "tardigrades/sexy-field-field-types-base": "dev-master",
     "ezyang/htmlpurifier": "^4.10"
   },

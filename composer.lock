@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "48019ec550dee5885a8d6baeb5c2ec73",
+    "content-hash": "3519db5dd750e01ea134ccdf761c3afc",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -3627,16 +3627,16 @@
         },
         {
             "name": "tardigrades/sexy-field-form",
-            "version": "dev-integrate-purifier",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-form.git",
-                "reference": "cf6da4f9e120cb22dac23a5f90eeabbc53f81129"
+                "reference": "61c7b911951fd286474625bed35a21ebbd6b0ca4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/cf6da4f9e120cb22dac23a5f90eeabbc53f81129",
-                "reference": "cf6da4f9e120cb22dac23a5f90eeabbc53f81129",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-form/zipball/61c7b911951fd286474625bed35a21ebbd6b0ca4",
+                "reference": "61c7b911951fd286474625bed35a21ebbd6b0ca4",
                 "shasum": ""
             },
             "require": {
@@ -3657,7 +3657,7 @@
                 "mockery/mockery": "^0.9.9",
                 "phpunit/phpunit": "^6.1",
                 "squizlabs/php_codesniffer": "^2.8",
-                "tardigrades/sexy-field": "dev-integrate-purifier",
+                "tardigrades/sexy-field": "dev-master",
                 "tardigrades/sexy-field-field-types-base": "dev-master"
             },
             "type": "library",
@@ -3677,7 +3677,7 @@
                 }
             ],
             "description": "SexyField Form. Generate symfony forms based on section configuration.",
-            "time": "2018-11-09T13:16:41+00:00"
+            "time": "2018-07-02T15:04:40+00:00"
         },
         {
             "name": "twig/extensions",
