@@ -1,7 +1,9 @@
 <?php
 
 namespace Tardigrades\SectionField\Purifier\CacheWarmer;
+
 use HTMLPurifier;
+
 use Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerInterface;
 
 /**
