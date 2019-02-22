@@ -100,6 +100,20 @@ services:
           oneToOne: Tardigrades\FieldType\Relationship\Generator\DoctrineOneToOneGenerator
           manyToMany: Tardigrades\FieldType\Relationship\Generator\DoctrineManyToManyGenerator
 
+  Tardigrades\FieldType\OverridableRelationship\OverridableRelationship:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\OverridableRelationship\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\OverridableRelationship\Generator\EntityMethodsGenerator
+          constructor: Tardigrades\FieldType\OverridableRelationship\Generator\EntityConstructorGenerator
+          use: Tardigrades\FieldType\Generator\EntityUseGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          manyToOne: Tardigrades\FieldType\OverridableRelationship\Generator\DoctrineManyToOneGenerator
+          oneToMany: Tardigrades\FieldType\OverridableRelationship\Generator\DoctrineOneToManyGenerator
+          oneToOne: Tardigrades\FieldType\OverridableRelationship\Generator\DoctrineOneToOneGenerator
+          manyToMany: Tardigrades\FieldType\OverridableRelationship\Generator\DoctrineManyToManyGenerator
 
   Tardigrades\FieldType\ConfigurationOverride\ConfigurationOverride:
     arguments:
