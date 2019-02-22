@@ -11,6 +11,26 @@ services:
         doctrine:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
+  Tardigrades\FieldType\Country\Country:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
+  Tardigrades\FieldType\Birthday\Birthday:
+      arguments:
+        -
+          entity:
+            properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+            methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+            validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+          doctrine:
+            fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
   Tardigrades\FieldType\DateTime\DateTimeField:
     arguments:
       -
@@ -79,6 +99,17 @@ services:
           oneToMany: Tardigrades\FieldType\Relationship\Generator\DoctrineOneToManyGenerator
           oneToOne: Tardigrades\FieldType\Relationship\Generator\DoctrineOneToOneGenerator
           manyToMany: Tardigrades\FieldType\Relationship\Generator\DoctrineManyToManyGenerator
+
+
+  Tardigrades\FieldType\ConfigurationOverride\ConfigurationOverride:
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\ConfigurationOverride\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\RichTextArea\RichTextArea:
     arguments:
