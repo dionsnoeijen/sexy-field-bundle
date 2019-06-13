@@ -3451,12 +3451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dionsnoeijen/sexy-field-doctrine.git",
-                "reference": "4175246225d2eff4987e160217f45e52bd447af6"
+                "reference": "4fa788880092a13cf5842bf931782cd6ce854bbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/4175246225d2eff4987e160217f45e52bd447af6",
-                "reference": "4175246225d2eff4987e160217f45e52bd447af6",
+                "url": "https://api.github.com/repos/dionsnoeijen/sexy-field-doctrine/zipball/4fa788880092a13cf5842bf931782cd6ce854bbf",
+                "reference": "4fa788880092a13cf5842bf931782cd6ce854bbf",
                 "shasum": ""
             },
             "require": {
@@ -3492,7 +3492,7 @@
                 }
             ],
             "description": "SexyField Doctrine package, containing config generator, writer, reader and deleter",
-            "time": "2019-06-06T11:35:15+00:00"
+            "time": "2019-06-13T08:12:04+00:00"
         },
         {
             "name": "tardigrades/sexy-field-entity",
