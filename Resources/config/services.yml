@@ -20,6 +20,7 @@ services:
   section_field.generator: '@Tardigrades\SectionField\Generator\Generators'
 
   Tardigrades\SectionField\Service\CreateSection:
+    public: true
     arguments:
       -
         - '@section_field.doctrine.create.section'
@@ -29,6 +30,7 @@ services:
   section_field.create.section: '@Tardigrades\SectionField\Service\CreateSection'
 
   Tardigrades\SectionField\Service\ReadSection:
+    public: true
     arguments:
       -
         - '@section_field.doctrine.read.section'
@@ -38,6 +40,7 @@ services:
   section_field.read.section: '@Tardigrades\SectionField\Service\ReadSection'
 
   Tardigrades\SectionField\Service\DeleteSection:
+    public: true
     arguments:
       -
         - '@section_field.doctrine.delete.section'
