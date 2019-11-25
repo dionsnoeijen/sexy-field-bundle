@@ -61,9 +61,10 @@ class SexyFieldExtension extends Extension
         $serializerPaths = [];
         foreach ($configs as $name => $config) {
             $configId = "sexy_field.config.$name";
-            $configDefinition = $container->register($configId, \HTMLPurifier_Config::class)
-                ->setPublic(false)
-            ;
+            $configDefinition = $container
+                ->register($configId, \HTMLPurifier_Config::class)
+                ->setPublic(true);
+
             if ('default' === $name) {
                 $configDefinition
                     ->setFactory([\HTMLPurifier_Config::class, 'create'])
@@ -78,6 +79,7 @@ class SexyFieldExtension extends Extension
             }
             $container->register("sexy_field.$name", \HTMLPurifier::class)
                 ->addArgument(new Reference($configId))
+                ->setPublic(true)
                 ->addTag(HTMLPurifierPass::PURIFIER_TAG, ['profile' => $name])
             ;
             if (isset($config['Cache.SerializerPath'])) {
@@ -85,8 +87,7 @@ class SexyFieldExtension extends Extension
             }
         }
 
-        $container->setAlias(\HTMLPurifier::class, 'sexy_field.default')
-            ->setPublic(false);
+        $container->setAlias(\HTMLPurifier::class, 'sexy_field.default');
 
         $container->setParameter('sexy_field.cache_warmer.serializer.paths', array_unique($serializerPaths));
 
