@@ -20,8 +20,8 @@
     "tardigrades/sexy-field-api": "dev-sym-4.x",
     "tardigrades/sexy-field-entity": "dev-sym-4.x",
     "tardigrades/sexy-field-doctrine": "dev-sym-4.x",
-    "tardigrades/sexy-field-form": "dev-sym-4.x",
-    "tardigrades/sexy-field-field-types-base": "dev-sym-4.x",
+    "tardigrades/sexy-field-form": "dev-sym-4-integrate-purifier",
+    "tardigrades/sexy-field-field-types-base": "dev-sym-4-integrate-purifier",
     "ezyang/htmlpurifier": "^4.10"
   },
   "autoload": {
