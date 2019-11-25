@@ -24,21 +24,15 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        if (method_exists($treeBuilder, 'getRootNode')) {
-            $rootNode = $treeBuilder->getRootNode();
-        } else {
-            // BC layer for symfony/config 4.1 and older
-            $rootNode = $treeBuilder->root('sexy_field');
-        }
+        $rootNode = $treeBuilder->getRootNode();
 
         $rootNode
             ->useAttributeAsKey('name')
             ->prototype('array')
-            ->useAttributeAsKey('name')
-            ->prototype('variable')
-            ->end()
-            ->end()
-        ;
+                ->useAttributeAsKey('name')
+                ->prototype('variable')
+                ->end()
+            ->end();
 
         return $treeBuilder;
     }
