@@ -21,7 +21,8 @@
     "tardigrades/sexy-field-entity": "dev-sym-4.x",
     "tardigrades/sexy-field-doctrine": "dev-sym-4.x",
     "tardigrades/sexy-field-form": "dev-sym-4.x",
-    "tardigrades/sexy-field-field-types-base": "dev-sym-4.x"
+    "tardigrades/sexy-field-field-types-base": "dev-sym-4.x",
+    "ezyang/htmlpurifier": "^4.10"
   },
   "autoload": {
     "psr-4": {
@@ -30,7 +31,7 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^6.1",
-    "squizlabs/php_codesniffer": "^2.8",
+    "squizlabs/PHP_CodeSniffer": "^2.8",
     "mockery/mockery": "^0.9.9"
   }
 }
