@@ -48,3 +48,13 @@ services:
 
   section_field.delete.section: '@Tardigrades\SectionField\Service\DeleteSection'
 
+  HTMLPurifier:
+    class: \HTMLPurifier
+
+  Tardigrades\Bundle\SexyFieldBundle\SectionField\Purifier\CacheWarmer\SerializerCacheWarmer:
+    public: false
+    arguments:
+      - [ '%kernel.cache_dir%/htmlpurifier' ]
+      - '@HTMLPurifier'
+    tags: [ kernel.cache_warmer ]
+
