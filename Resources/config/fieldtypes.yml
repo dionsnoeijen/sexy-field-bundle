@@ -12,6 +12,16 @@ services:
         doctrine:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
+  Tardigrades\FieldType\Boolean\Boolean:
+    public: true
+    arguments:
+      - entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Choice\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
   Tardigrades\FieldType\Country\Country:
     public: true
     arguments:
