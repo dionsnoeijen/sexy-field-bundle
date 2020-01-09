@@ -15,7 +15,8 @@ services:
   Tardigrades\FieldType\Boolean\Boolean:
     public: true
     arguments:
-      - entity:
+      - 
+        entity:
           properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
           methods: Tardigrades\FieldType\Choice\Generator\EntityMethodsGenerator
           validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
