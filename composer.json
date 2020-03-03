@@ -13,11 +13,11 @@
     }
   ],
   "require": {
-    "php": "^7.1",
+    "php": "^7.3",
     "symfony/dependency-injection": "^4",
     "symfony/http-kernel": "^4",
     "tardigrades/sexy-field": "dev-sym-4.x",
-    "tardigrades/sexy-field-api": "dev-sym-4.x",
+    "tardigrades/sexy-field-api": "dev-manual-router",
     "tardigrades/sexy-field-entity": "dev-sym-4.x",
     "tardigrades/sexy-field-doctrine": "dev-sym-4.x",
     "tardigrades/sexy-field-form": "dev-sym-4.x",
