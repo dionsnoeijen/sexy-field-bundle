@@ -15,6 +15,7 @@ services:
       -
         - '@section_field.generator.entity_generator'
         - '@section_field.generator.entity_trait_generator'
+        - '@section_field.generator.entity_serializer_generator'
         - '@section_field.generator.doctrine_config_generator'
 
   section_field.generator: '@Tardigrades\SectionField\Generator\Generators'
