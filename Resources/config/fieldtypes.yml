@@ -2,6 +2,7 @@
 # Override in your app if different generators are required
 services:
   Tardigrades\FieldType\Choice\Choice:
+    public: true
     arguments:
       -
         entity:
@@ -11,7 +12,19 @@ services:
         doctrine:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
+  Tardigrades\FieldType\Boolean\Boolean:
+    public: true
+    arguments:
+      - 
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+
   Tardigrades\FieldType\Country\Country:
+    public: true
     arguments:
       -
         entity:
@@ -22,16 +35,18 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\Birthday\Birthday:
-      arguments:
-        -
-          entity:
-            properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
-            methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
-            validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
-          doctrine:
-            fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
+    public: true
+    arguments:
+      -
+        entity:
+          properties: Tardigrades\FieldType\Generator\EntityPropertiesGenerator
+          methods: Tardigrades\FieldType\Generator\EntityMethodsGenerator
+          validatorMetadata: Tardigrades\FieldType\Generator\EntityValidatorMetadataGenerator
+        doctrine:
+          fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\DateTime\DateTimeField:
+    public: true
     arguments:
       -
         entity:
@@ -44,6 +59,7 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\DateTimeTimezone\DateTimeTimezone:
+    public: true
     arguments:
       -
         entity:
@@ -56,6 +72,7 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\Email\Email:
+    public: true
     arguments:
       -
         entity:
@@ -66,6 +83,7 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\Integer\Integer:
+    public: true
     arguments:
       -
         entity:
@@ -76,6 +94,7 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\Number\Number:
+    public: true
     arguments:
       -
         entity:
@@ -86,6 +105,7 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\Relationship\Relationship:
+    public: true
     arguments:
       -
         entity:
@@ -102,6 +122,7 @@ services:
 
 
   Tardigrades\FieldType\ConfigurationOverride\ConfigurationOverride:
+    public: true
     arguments:
       -
         entity:
@@ -112,6 +133,7 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\RichTextArea\RichTextArea:
+    public: true
     arguments:
       -
         entity:
@@ -122,6 +144,7 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\Slug\Slug:
+    public: true
     arguments:
       -
         entity:
@@ -133,6 +156,7 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\TextArea\TextArea:
+    public: true
     arguments:
       -
         entity:
@@ -143,6 +167,7 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\TextInput\TextInput:
+    public: true
     arguments:
       -
         entity:
@@ -153,6 +178,7 @@ services:
           fields: Tardigrades\FieldType\Generator\DoctrineFieldGenerator
 
   Tardigrades\FieldType\Uuid\Uuid:
+    public: true
     arguments:
       -
         entity:

@@ -15,11 +15,13 @@ services:
       -
         - '@section_field.generator.entity_generator'
         - '@section_field.generator.entity_trait_generator'
+        - '@section_field.generator.entity_serializer_generator'
         - '@section_field.generator.doctrine_config_generator'
 
   section_field.generator: '@Tardigrades\SectionField\Generator\Generators'
 
   Tardigrades\SectionField\Service\CreateSection:
+    public: true
     arguments:
       -
         - '@section_field.doctrine.create.section'
@@ -29,6 +31,7 @@ services:
   section_field.create.section: '@Tardigrades\SectionField\Service\CreateSection'
 
   Tardigrades\SectionField\Service\ReadSection:
+    public: true
     arguments:
       -
         - '@section_field.doctrine.read.section'
@@ -38,10 +41,21 @@ services:
   section_field.read.section: '@Tardigrades\SectionField\Service\ReadSection'
 
   Tardigrades\SectionField\Service\DeleteSection:
+    public: true
     arguments:
       -
         - '@section_field.doctrine.delete.section'
       - '@event_dispatcher'
 
   section_field.delete.section: '@Tardigrades\SectionField\Service\DeleteSection'
+
+  HTMLPurifier:
+    class: \HTMLPurifier
+
+  Tardigrades\Bundle\SexyFieldBundle\SectionField\Purifier\CacheWarmer\SerializerCacheWarmer:
+    public: false
+    arguments:
+      - [ '%kernel.cache_dir%/htmlpurifier' ]
+      - '@HTMLPurifier'
+    tags: [ kernel.cache_warmer ]
 
