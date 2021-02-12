@@ -4,7 +4,7 @@ services:
     class: Doctrine\ORM\Mapping\Driver\XmlDriver
     arguments:
       -
-        - "%kernel.project_dir%/../vendor/tardigrades/sexy-field/src/config/xml"
+        - "%kernel.project_dir%/vendor/tardigrades/sexy-field/src/config/xml"
       - ".dcm.xml"
 
   # This is the configuration that assumes you use the sexy-field-doctrine and sexy-field-entity package
