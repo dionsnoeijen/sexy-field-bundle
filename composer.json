@@ -13,7 +13,7 @@
     }
   ],
   "require": {
-    "php": "^7.4",
+    "php": "8.*",
     "symfony/dependency-injection": "^4",
     "symfony/http-kernel": "^4",
     "tardigrades/sexy-field": "dev-master",
