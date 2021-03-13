@@ -13,25 +13,20 @@
     }
   ],
   "require": {
-    "php": "^7.4",
-    "symfony/dependency-injection": "^4",
-    "symfony/http-kernel": "^4",
-    "tardigrades/sexy-field": "dev-master",
-    "tardigrades/sexy-field-api": "dev-master",
-    "tardigrades/sexy-field-entity": "dev-master",
-    "tardigrades/sexy-field-doctrine": "dev-master",
-    "tardigrades/sexy-field-form": "dev-master",
-    "tardigrades/sexy-field-field-types-base": "dev-master",
+    "php": "8.*",
+    "symfony/dependency-injection": "^5",
+    "symfony/http-kernel": "^5",
+    "tardigrades/sexy-field": "dev-sym5",
+    "tardigrades/sexy-field-api": "dev-sym5",
+    "tardigrades/sexy-field-entity": "dev-sym5",
+    "tardigrades/sexy-field-doctrine": "dev-sym5",
+    "tardigrades/sexy-field-form": "dev-sym5",
+    "tardigrades/sexy-field-field-types-base": "dev-sym5",
     "ezyang/htmlpurifier": "^4.10"
   },
   "autoload": {
     "psr-4": {
       "Tardigrades\\Bundle\\SexyFieldBundle\\": ""
     }
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^6.1",
-    "squizlabs/php_codesniffer": "^2.8",
-    "mockery/mockery": "^0.9.9"
   }
 }

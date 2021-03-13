@@ -38,7 +38,7 @@ class SerializerCacheWarmer implements CacheWarmerInterface
     /**
      * {@inheritdoc}
      */
-    public function warmUp($cacheDir): void
+    public function warmUp(string $cacheDir): void
     {
         foreach ($this->paths as $path) {
             if (!is_dir($path)) {

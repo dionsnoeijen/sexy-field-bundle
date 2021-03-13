@@ -23,10 +23,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('sexy_field');
-
-        $rootNode
+        $treeBuilder = new TreeBuilder('sexy_field');
+        $treeBuilder->getRootNode()
             ->useAttributeAsKey('name')
             ->prototype('array')
             ->useAttributeAsKey('name')
